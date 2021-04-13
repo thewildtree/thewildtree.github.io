@@ -4,9 +4,9 @@ permalink:           pretty
 # Setup
 title:               wildtree's blog
 tagline:             anyone got an idea for a tagline?
-url:                 http://thewildtree.github.io
+url:                 https://thewildtree.github.io
 paginate:            1
-baseurl:             "http://thewildtree.github.io"
+baseurl:             "https://thewildtree.github.io"
 
 # Assets
 #
