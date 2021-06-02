@@ -337,8 +337,8 @@ until the chorus around 30 seconds later:
 </video>
 
 As you can hear, while 1/2 notes are perfectly where they are supposed to,
-they're not exactly the moments we want to track - 1/1 notes, indicated by white
-lines, are much better moments to potentially syncing an edit to.
+they're not exactly the beats we want to track - 1/1 notes, indicated by white
+lines, are much better moments to potentially sync an edit to.
 
 Afterwards, it properly stays on 1/1 notes for a longer while, until this
 section:
