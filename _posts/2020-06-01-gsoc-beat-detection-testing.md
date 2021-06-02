@@ -108,7 +108,7 @@ for some really calm sections, where it just doesn't have enough information to
 properly judge the rhythm. It also handles more advanced cases with... varying
 results. Here's a couple examples:
 
-#### Taylor Swift - Stay Stay Stay
+### Taylor Swift - Stay Stay Stay
 A rather calm country pop song with constant BPM and a few calmer sections.
 
 <video controls>
@@ -129,7 +129,7 @@ for a few seconds, resulting in a few off-beat detections. Quickly recovers,
 this time correctly ending up on white lines (full notes). Otherwise, it stays
 consistent throughout the song, giving satisfying results.
 
-#### One Republic - Counting Stars
+### One Republic - Counting Stars
 
 A bit less calm pop song with a catchy beat. The main tricky section there is
 the intro, where there's only vocals and a calm guitar background before the
@@ -156,7 +156,7 @@ During the rest of the song, beats are detected well and only slightly
 drift off-sync during the slow section, again letting the vocals
 take the lead for a short while. More than good enough for our use-case.
 
-#### Bruno Mars - Marry You
+### Bruno Mars - Marry You
 
 Aside from the short hiccup mentioned earlier in the post, beat detection works
 perfectly fine throughout the whole song - here's an example:
@@ -165,7 +165,7 @@ perfectly fine throughout the whole song - here's an example:
     <source src="https://tree.s-ul.eu/YnoUtNEn.mp4" type="video/mp4">
 </video>
 
-#### Stephen - Crossfire
+### Stephen - Crossfire
 
 This is an interesting one - it has short (one / two measures) pauses in the
 background rhythm throughout almost the whole song, as well as a few
@@ -198,7 +198,7 @@ However, all it needs to recover is the vocal line - as soon as it appears,
 beats start being detected correctly throughout the rest of the slow section and
 into the final, energetic chorus. Looks pretty impressive to me.
 
-#### Rita - dorchadas
+### Rita - dorchadas
 
 A relaxing song with an energetic chorus - the first one here with a variable
 tempo as well as a time signature different than 4/4.
@@ -227,7 +227,7 @@ perfectly here.
 Second tempo change - back into 188BPM 6/4 - also goes without issues. Overall,
 `librosa` handles this song really well.
 
-#### MiddleIsland - Rose
+### MiddleIsland - Rose
 
 Time for a real challenge - a **non-percussive piano song** that's not timed to a metronome.
 
@@ -249,7 +249,7 @@ are quite impressive to me - I honestly thought `librosa` was going to fail
 entirely before tested it on this song. Of course, it's not perfect, but is
 easily good enough for us and our use-case.
 
-#### Lady Gaga & Bradley Cooper - Shallow
+### Lady Gaga & Bradley Cooper - Shallow
 
 Another non-constant tempo song, with piano + guitar background for the most of
 the song - only the final chorus has drums in it.
@@ -277,7 +277,7 @@ underlying piano. Still, the result is acceptable for a non-metronome song.
 The final buildup, on the other hand, isn't an issue at all - it's not a
 surprise, though, considering that drums make an appearance there.
 
-#### Demetori - Mukau no Sato ~ Deep Mountain
+### Demetori - Mukau no Sato ~ Deep Mountain
 
 A relatively calm, instrumental song performed by a Japanese metal band.
 
@@ -290,7 +290,7 @@ different time signature - they don't all land on the same kind of notes. It
 stays in sync with the song though, so that shouldn't be a big deal, but sounds a
 little weird when directly overlayed onto the song.
 
-#### Demetori - Seijouki no Pierrot ~ The MadPiero Laughs
+### Demetori - Seijouki no Pierrot ~ The MadPiero Laughs
 
 A much more energetic, instrumental metal song. Strong drumline throughout the
 entire song, but the tempo changes a little in certain moments.
@@ -305,7 +305,7 @@ entire song, but the tempo changes a little in certain moments.
 
 No issues whatsoever here, the slight BPM changes were handled perfectly.
 
-#### Kobaryo - Bookmaker
+### Kobaryo - Bookmaker
 
 Finally, time for some fast and loud tech / speedcore tracks.
 
@@ -319,7 +319,7 @@ correctly goes back to 1/1 when the buildup starts, only to be thrown onto 1/2
 ticks by the same sound seconds after. Similar thing happens in the chorus later
 on.
 
-#### sabi - true DJ MAG top ranker's song Zenpen (katagiri Remix)
+### sabi - true DJ MAG top ranker's song Zenpen (katagiri Remix)
 
 This is definitely the most noisy / rhythmically complex song here, despite
 having a constant 170 BPM. Volume warning I guess!
