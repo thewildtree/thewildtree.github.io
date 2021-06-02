@@ -4,8 +4,9 @@ permalink:           pretty
 # Setup
 title:               wildtree's blog
 tagline:             anyone got an idea for a tagline?
+
 url:                 https://thewildtree.github.io
-paginate:            1
+paginate:            5
 baseurl:             "https://thewildtree.github.io"
 
 # Assets
@@ -25,3 +26,6 @@ author:
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+plugins:
+  [jekyll-paginate]
