@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GSoC 2021: Beat detection testing"
+tags: pitivi
 ---
 
 ## Algorithmic beat detection
