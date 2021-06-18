@@ -24,8 +24,14 @@ author:
 
 # Gems
 gems:
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
 
+feed:
+  tags:
+    only:
+      - pitivi
+
 plugins:
-  [jekyll-paginate]
+  [jekyll-paginate, jekyll-feed]
