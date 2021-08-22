@@ -6,7 +6,7 @@ title:               wildtree's blog
 tagline:             " - hello!"
 url:                 http://thewildtree.github.io
 paginate:            5
-baseurl:             ""
+baseurl:             "https://thewildtree.github.io"
 
 # Assets
 #
